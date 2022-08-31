@@ -1,0 +1,75 @@
+.principal{
+
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    
+}
+
+.container{
+
+    width: 400px;
+    
+}
+
+input[type="text"]{
+
+    font-size: 18px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+label{
+
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+input[type="button"]{
+
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+    border: none;
+    color: white;
+    
+}
+
+input[type="button"]:hover{
+
+   color: rgb(35, 250, 250);
+   transform: scale(1.1);
+   transition: 1.5s;
+   cursor: pointer;
+   
+}
+
+h1{
+
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+.resultado{
+
+    width: 80%;
+    height: 14%;
+    background-color: azure;
+    
+    padding: 20px;
+    margin: 1px auto;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
